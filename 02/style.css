@@ -1,7 +1,15 @@
-h1,a{
-  color: rgb(255, 1, 1);
+#introducao {
+  color: goldenrod
 }
-
-p a {
-  color: rgb(102, 0, 255);
+.codigo,.design{
+  color: red
+}
+.azul{
+  color: blue;
+}
+.underline{
+  text-decoration: underline;
+}
+.grande{
+  font-size: 22px;
 }
