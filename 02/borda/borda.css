@@ -1,0 +1,18 @@
+div{
+  background: #aaa;
+  width: 140px; /*LARGURA */
+  height: 80px; /*ALTURA */
+  padding: 20px; /*PREENCHIMENTO*/
+  border: 10px solid #111; /*BORDA*/
+  margin: 30px; /*MARGEM*/
+}
+
+body{
+  margin: 0px;
+}
+
+h1{
+  background: #84e;
+  padding: 20px;
+  margin: 30px; 
+}
