@@ -1,0 +1,33 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  margin-top: 0px;
+}
+
+.comprar{
+  background: #a8f;
+  padding: 10px 20px;
+  color: #103;
+  text-decoration: none; /*tirar o underline em baixo de algo */
+  border-radius: 4px;
+}
+
+.item{
+  background: #f7f7f7;
+  border: 1px solid #f7f7f7;
+  padding: 20px;
+  border-radius: 4px; /*Para arredondar as bordas */
+}
+.grid{
+  display: grid; /*Começar o grid */
+  height: 800px;
+  grid-template-columns: auto auto; /* Uso para colocar cada coluna ou bloco de coisa um do lado do outro. */
+  gap: 20px; /* para dar espaços entre as colunas */
+  place-content: start; /* um atalho do justify e align, usado para ajustar o conteudo a tela.*/
+}
