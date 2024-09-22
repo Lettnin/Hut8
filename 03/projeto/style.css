@@ -1,7 +1,7 @@
 body{
   font-family: Arial, Helvetica, sans-serif;
   margin: 0px;
-  background: rgb(226, 226, 233);
+  background-color: rgb(226, 226, 233);
   justify-items: center;
   display: grid;
   gap: 60px;
@@ -22,7 +22,7 @@ p,h1,h2,h3{
   
 }
 .cabecalho a{
-  background: rgb(235, 157, 39);
+  background-color: rgb(235, 157, 39);
   padding: 15px 30px;
   border-radius: 4px;
   color: #000;
@@ -37,7 +37,7 @@ p,h1,h2,h3{
 
 .introducao{
   text-align: right;
-  background: #fff;
+  background-color: #fff;
   padding: 40px;
   border-radius: 4px;
   position: relative;
@@ -51,7 +51,7 @@ p,h1,h2,h3{
 .detalhe{
   width: 60px;
   height: 4px;
-  background: rgb(235, 157, 39);
+  background-color: rgb(235, 157, 39);
   position: absolute;
   top: 30px;
   right: -30px;
@@ -59,7 +59,7 @@ p,h1,h2,h3{
 
 .botao{
   padding: 12px 20px;
-  background: rgb(235, 157, 39);
+  background-color: rgb(235, 157, 39);
   color: #000;
   text-decoration: none;
   border-radius: 4px;
@@ -75,7 +75,7 @@ p,h1,h2,h3{
 }
 
 .vantagens{
-  background: #fff;
+  background-color: #fff;
   padding: 40px;
   margin: 0px;
 }
@@ -92,7 +92,7 @@ p,h1,h2,h3{
 }
 
 .rodape{
-  background: #fff;
+  background-color: #fff;
   width: 100%;
   text-align: center;
   padding: 40px;

@@ -1,0 +1,25 @@
+body{
+  margin: 0px;
+}
+
+div{
+  background: lightblue;
+  width: calc(100vh - 100px);
+  height: 100vh;
+}
+
+/* vh repressenta o tamanho da altura da tela visivel
+vw da largura  100VW = 100& DA TELA*/
+  
+/* .px{
+  font-size: 32px
+}
+
+.em{
+  font-size: 2em;
+}
+
+.rem{
+  font-size: 2rem;
+} 
+/* usar a partir de agora rem que seria 1rem = 16px */
