@@ -1,0 +1,30 @@
+a{
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  background-color: #caf;
+  color: #217;
+
+}
+
+a:hover{
+  background-color: #adf;
+  color: #147;
+}
+
+a:focus{
+  background-color: #cfa;
+  color: #371;
+}
+
+a:active{
+  background-color: #ffa;
+  color: #761;
+}
+
+/* a:visited{
+  background-color: #fda;
+  color: #731;
+} */
