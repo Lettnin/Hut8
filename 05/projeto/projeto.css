@@ -8,6 +8,15 @@ body{
   margin-top: 60px;
 }
 
+img{
+  max-width: 100%;
+  display: block;
+  border-radius: 2px;
+}
+p,h1,h2,h3{
+  margin: 0px;
+}
+
 .header{
   display: grid;
   justify-items: center;
@@ -24,8 +33,90 @@ body{
 .botao{
   text-decoration: none;
   background-color: rgb(235, 157, 39);
-  padding: 15px 30px;
+  padding: 15px 25px;
   border-radius: 4px;
   color: black;
+}
+
+.botao2{
+  text-decoration: none;
+  background-color: rgb(235, 157, 39);
+  padding: 15px 25px;
+  border-radius: 4px;
+  color: black;
+}
+
+.botao:hover{
+  border: 4px solid #000;
+}
+
+.conteudo{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+}
+
+.introducao{
+  background-color: #ffffff;
+  padding: 40px;
+  text-align: right;
+  position: relative;
+  display: grid;
+  gap: 20px;
+  align-content: center;
+  justify-items: end;
+  border-radius: 2px;
+}
+
+.introducao h1{
+  font-size: 2rem;
+}
+.introducao p{
+  font-size: 1rem;
+}
+
+.detalhe{
+  width: 60px;
+  height: 4px;
+  background-color: rgb(235, 157, 39);
+  position: absolute;
+  top: 30px;
+  right: -30px;
+}
+
+.subtitulo{
+  align-self: center;
+  padding: 40px;
+  text-align: right;
+  color: rgb(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  font-size: 4rem;
+  display: grid;
+}
+
+.vantagens{
+  background-color: #fff;
+  padding: 40px;
+  margin: 0;
+  list-style: none;
+  border-radius: 2px;
+}
+
+.vantagens-item{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px 20px;
+  padding: 30px;
   
+}
+.vantagens-item p{
+  grid-column: 2;
+}
+
+.rodape{
+  background-color: #fff;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
 }
