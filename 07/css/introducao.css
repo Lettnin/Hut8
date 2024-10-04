@@ -4,7 +4,7 @@
   margin: 0 auto;
   display: grid;
   grid-template-columns: auto auto;
-  gap: 100px;
+  gap: 200px;
   align-items: center;
 }
 
@@ -20,12 +20,14 @@
 }
 
 .introducao h1{
-  font-size: 3.5rem;
-  line-height: 4rem;
+  font-size: 5.5rem;
+  line-height: 6rem;
   margin-bottom: 15px;
+  margin-left: 100px;
 }
 
 .introducao p{
   font-size: 1.125rem;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
+  margin-left: 100px;
 }
