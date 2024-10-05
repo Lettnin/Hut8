@@ -23,7 +23,7 @@
 }
 
 .formacao-texto{
-  font-family: consolaz;
+  font-family: consolasB;
   font-size: 1.4rem;
   line-height: 1.3;
   margin-bottom: 30px;
@@ -36,12 +36,37 @@
 
 .faculdade-lista{
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto 1fr;
   gap: 20px;
+  /* justify-items: center; */
+  /* margin-left: 2rem; */
 }
 
 .faculdade{
-  padding: 20px;
-  border-radius: 4px;
-  background-color: #1d2e69;
+  width: 25rem;
+  padding: 1.2rem 1.5rem;
+  border-radius: 6px;
+  background-color: black;
+  font-size: 1.212rem;
+  line-height: 2rem;
+}
+
+.faculdade-tipo{
+  font-size: 1.8rem;
+  font-weight: bold ;
+  color: #caf;
+}
+
+.escola-status{
+  color: rgb(0, 255, 0);
+}
+
+.faculdade-status{
+  color: rgb(221, 221, 0);
+}
+
+.curso-titulo{
+  font-size: 1.7rem;
+  font-weight: bold ;
+  color: #caf;
 }
