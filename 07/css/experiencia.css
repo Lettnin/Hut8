@@ -54,7 +54,7 @@
 }
 
 .empresa-titulo{
-  font-size: 1.7rem;
+  font-size: 2rem;
   line-height: 2;
   font-weight: bold;
   margin-top: -15px;
@@ -62,7 +62,7 @@
 }
 
 .empresa-texto{
-  font-size: 1.110rem;
+  font-size: 1.4rem;
   line-height: 1.2;
 }
 
@@ -74,7 +74,7 @@
 }
 
 .habilidades li{
-  font-size: 0.875rem;
+  font-size: 1.2rem;
   line-height: 1.4;
   border-radius: 4px;
   background-color: #caf;
