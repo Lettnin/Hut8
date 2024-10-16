@@ -4,26 +4,42 @@
 }
 
 .footer-container{
+<<<<<<< HEAD
   max-width: 1920px;
+=======
+  max-width: 1960px;
+>>>>>>> b735aeed3068790a342de1f94918e1902a7e102c
   margin: 0 auto;
   padding: 30px 100px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+<<<<<<< HEAD
+=======
+  margin-left: 80px;
+>>>>>>> b735aeed3068790a342de1f94918e1902a7e102c
 }
 .titulo {
   font-size: 8rem;
   line-height: 0.9;
   text-transform: uppercase;
   max-width: 5ch;
+<<<<<<< HEAD
   margin-left: 10px;
+=======
+  margin-left: -30px;
+>>>>>>> b735aeed3068790a342de1f94918e1902a7e102c
   color: #caf;
 }
 
 .footer p{
   font-size: 2.3rem;
   margin-top: 20px;
+<<<<<<< HEAD
   line-height: 1.4;
 }
+=======
+  line-height: 1.4;}
+>>>>>>> b735aeed3068790a342de1f94918e1902a7e102c
 
 .card {
   background-color: transparent;
@@ -94,6 +110,7 @@
     opacity: 1;
   }
 }
+<<<<<<< HEAD
 @media(max-width: 1367px){
   .titulo {
   font-size: 6rem;
@@ -102,3 +119,6 @@
   font-size: 1.7rem;
   }
 }
+=======
+
+>>>>>>> b735aeed3068790a342de1f94918e1902a7e102c
