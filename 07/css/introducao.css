@@ -1,22 +1,33 @@
 .introducao{
+<<<<<<< HEAD
   max-width: 1920px;
   padding: 30px 5px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: auto auto;
   gap: 220px;
+=======
+  display: flex;
+  width: 100%;
+  height: 450px;
+>>>>>>> 0af848fd039fb1b8d7d4d9b90278275f834efaf8
   align-items: center;
+  justify-content: space-around;
+}
+.imagem{
+  width: 400px;
+  height: 400px;
+  left: 200px;
+  border-radius: 100%;
+  border: 4px solid #a7a7a7;
 }
 
-.introducao img{
-  width: 350px;
-  height: 350px;
-  border-radius: 50%;
+.imagem img{
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
   object-fit: cover;
-  display: block;
-  margin: 0 auto;
-  border: 4px solid #a7a7a7;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  /* left: 50px; */
 }
 
 .introducao h1{

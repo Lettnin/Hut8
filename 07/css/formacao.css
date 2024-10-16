@@ -22,10 +22,20 @@
   word-break: break-all;
   max-width: 5ch;
   opacity: 0.8;
-  margin-left: -30px;
+  margin-left: 35px;
   color: #ffffff;
   margin-top: 40px;
 >>>>>>> b735aeed3068790a342de1f94918e1902a7e102c
+}
+@media(max-width: 1575px){
+  .sub{
+    font-size: 9rem;
+  }
+}
+@media(max-width: 1500px){
+  .sub{
+    margin-right: 50px;
+  }
 }
 
 .formacao-texto{
