@@ -1,10 +1,10 @@
 .introducao{
-  max-width: 1960px;
-  padding: 30px 30px;
+  max-width: 1920px;
+  padding: 30px 5px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: auto auto;
-  gap: 200px;
+  gap: 220px;
   align-items: center;
 }
 
@@ -23,11 +23,27 @@
   font-size: 5.5rem;
   line-height: 6rem;
   margin-bottom: 15px;
-  margin-left: 100px;
 }
 
 .introducao p{
-  font-size: 1.125rem;
+  font-size: 1.8rem;
   margin-bottom: 8px;
-  margin-left: 100px;
+}
+
+@media(max-width: 1367px) {
+  .introducao{
+    padding: 30px;
+  }
+  .introducao img{
+    width: 250px;
+    height: 250px;
+  }
+  .introducao h1{
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+  }
+  .introducao p{
+    font-size: 1.3rem;
+    margin-bottom: 3px;
+  } 
 }
