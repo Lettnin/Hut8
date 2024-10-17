@@ -6,7 +6,7 @@
 .footer-container{
   max-width: 1920px;
   margin: 0 auto;
-  padding: 30px 100px;
+  padding: 50px 0px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -15,12 +15,13 @@
   line-height: 0.9;
   text-transform: uppercase;
   max-width: 5ch;
+  margin-left: 130px;
   color: #caf;
 }
 
 .footer p{
-  font-size: 2.3rem;
-  margin-top: 20px;
+  font-size: 2.2rem;
+  margin-top: 40px;
   line-height: 1.4;
 }
 
@@ -29,15 +30,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* padding: 10px; */
-  gap: 25px;
+  gap: 30px;
 }
 
 /* for all social containers*/
 .socialContainer {
-  width: 65px;
-  height: 65px;
-  background-color: rgb(65, 29, 131);
+  width: 70px;
+  height: 70px;
+  background-color: #caf;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -75,7 +75,7 @@
 }
 
 .socialSvg path {
-  fill: rgb(255, 255, 255);
+  fill: black;
 }
 
 .socialContainer:hover .socialSvg {
@@ -96,6 +96,7 @@
 @media(max-width: 1367px){
   .titulo {
   font-size: 6rem;
+  margin-left: 80px;
   }
   .footer p{
   font-size: 1.7rem;
