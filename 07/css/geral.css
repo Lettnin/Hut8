@@ -17,9 +17,3 @@ img{
   max-width: 100%;
   display: block;
 }
-
-@media(max-width: 1367px) {
-  .subtitulo{
-    font-size: 7rem;
-  }
-}

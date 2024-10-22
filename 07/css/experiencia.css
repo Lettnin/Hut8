@@ -1,12 +1,14 @@
 .experiencia{
   max-width: 1920px;
+  min-width: 320px;
   margin: 0 auto;
   padding: 30px 130px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
 }
 .subtitulo{
-  font-size: 11rem;
+  font-size: 10rem;
   line-height: 1;
   text-transform: uppercase;
   word-break: break-all;
@@ -89,6 +91,14 @@
   color: black;
   padding: 6px 12px;
 }
+
+@media(min-width: 1921px) {
+  .experiencia {
+    max-width: 85%; /* Define uma largura relativa */
+    margin: 0 auto; /* Mantém o conteúdo centralizado */
+  }
+}
+
 @media(max-width: 1367px) {
   .experiencia{
     padding: 30px 80px;
@@ -125,6 +135,72 @@
   }
   .habilidades{
     gap: 15px;
+  }
+  .habilidades li{
+    font-size: 1rem;
+    line-height: 1;
+  }
+}
+@media(max-width: 1024px) {
+  .experiencia{
+    padding: 20px 60px;
+  }
+    .subtitulo{
+    font-size: 6rem;
+  }
+  .experiencia-texto{
+    font-size: 1.35rem;
+  }
+  .ano{
+    top: 27px;
+    left: -85px;
+    color: #ffffff;
+    font-size: 1.25rem;
+  }
+  .empresa-texto{
+    font-size: 1.15rem;
+    line-height: 1.1;
+  }
+  .empresa-titulo{
+    font-size: 1.7rem;
+    line-height: 1.7;
+    margin-top: 5px;
+  }
+  .habilidades{
+    gap: 10px;
+  }
+  .habilidades li{
+    font-size: 1rem;
+    line-height: 1;
+  }
+}
+@media(max-width: 768px) {
+  .experiencia{
+    padding: 20px 40px;
+  }
+    .subtitulo{
+    font-size: 5rem;
+  }
+  .experiencia-texto{
+    font-size: 1.20rem;
+  }
+  .ano{
+    top: 29px;
+    left: -73px;
+    color: #ffffff;
+    font-size: 1.10rem;
+  }
+  .empresa-texto{
+    font-size: 1rem;
+    line-height: 1.1;
+  }
+  .empresa-titulo{
+    font-size: 1.5rem;
+    line-height: 1.7;
+    margin-top: 5px;
+  }
+  .habilidades{
+    gap: 10px;
   }
   .habilidades li{
     font-size: 1rem;

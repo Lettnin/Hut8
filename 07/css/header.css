@@ -1,5 +1,6 @@
 .header{
   max-width: 1920px;
+  min-width: 320px;
   padding-top: 40px;
   margin: 0 auto;
   display: flex;
@@ -34,6 +35,12 @@
   font-size: 1.85rem;
 }
 
+@media(min-width: 1921px) {
+  .header {
+    max-width: 85%; /* Define uma largura relativa */
+    margin: 0 auto; /* Mantém o conteúdo centralizado */
+  }
+}
 @media(max-width: 1367px) {
   .nome{
     padding: 0 0 0 80px;
@@ -46,5 +53,34 @@
   }
   .header-menu a:hover{
     font-size: 2rem;
+  }
+}
+
+@media(max-width: 1024px) {
+  .nome{
+    padding: 0 0 0 60px;
+    font-size: 1.8rem;
+  }
+  .header-menu a{
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    transition: 0.6s;
+  }
+  .header-menu a:hover{
+    font-size: 1.4rem;
+  }
+}
+@media(max-width: 768px) {
+  .nome{
+    padding: 0 0 0 40px;
+    font-size: 1.5rem;
+  }
+  .header-menu a{
+    font-size: 0.9rem;
+    padding: 10px;
+    transition: 0.6s;
+  }
+  .header-menu a:hover{
+    font-size: 1.2rem;
   }
 }
