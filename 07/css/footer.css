@@ -119,6 +119,7 @@
 @media(max-width: 1024px){
   .titulo {
   font-size: 5.5rem;
+  margin-left: 60px;
   }
   .footer p{
   font-size: 1.4rem;
@@ -127,5 +128,22 @@
   .socialContainer {
   width: 50px;
   height: 50px;
+  }
+}
+@media(max-width: 768px){
+  .card{
+    gap: 20px;
+  }
+  .titulo {
+    font-size: 5rem;
+    margin-left: 20px;
+  }
+  .footer p{
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  .socialContainer {
+    width: 40px;
+    height: 40px;
   }
 }
